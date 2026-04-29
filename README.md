@@ -42,7 +42,17 @@ A modern, responsive web application for managing flight schedules. View, filter
 
 ---
 
-## 🚀 Getting Started
+## � Screenshots
+
+### Desktop View
+Full-featured table with all filtering and search options
+![Desktop View](docs/screenshots/desktop-view.png)
+
+### Mobile View
+Responsive card layout for mobile devices
+![Mobile View](docs/screenshots/mobile-view.png)
+
+---
 
 ### Prerequisites
 - Node.js 16+ and npm

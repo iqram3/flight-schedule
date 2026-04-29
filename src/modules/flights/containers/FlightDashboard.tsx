@@ -29,14 +29,14 @@ export function FlightDashboard() {
       <header className="border-b border-slate-200 bg-[radial-gradient(circle_at_top_left,_rgba(8,145,178,0.18),_transparent_34%),linear-gradient(135deg,#ffffff_0%,#eef6ff_52%,#f8fafc_100%)] px-4 py-6 md:px-6 lg:py-8">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="text-sm font-black uppercase tracking-wide text-cyan-800">Teleport Ops</p>
-            <h1 className="mt-2 max-w-3xl text-3xl font-black text-ink sm:text-4xl">
-              Flight Schedule Management
+            {/* <p className="text-sm font-black uppercase tracking-wide text-cyan-800">Teleport Ops</p> */}
+            <h1 className="mt-0 max-w-3xl text-3xl font-black text-cyan-800 sm:text-4xl">
+              Flight Schedule Manager
             </h1>
           </div>
-          <p className="max-w-xl text-sm font-medium leading-6 text-slate-700">
+          {/* <p className="max-w-xl text-sm font-medium leading-6 text-slate-700">
             Manage operational windows, status changes, schedule edits, and filtered deletion from a virtualized dataset.
-          </p>
+          </p> */}
         </div>
       </header>
 
