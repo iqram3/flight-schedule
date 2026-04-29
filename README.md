@@ -1,4 +1,4 @@
-# ✈️ Flight Schedule Management Table
+# ✈️ Flight Schedule Manager
 
 A modern, responsive web application for managing flight schedules. View, filter, search, edit, and delete flight records with an intuitive interface optimized for both desktop and mobile devices.
 
