@@ -362,7 +362,7 @@ function FlightCards(props: FlightTableProps) {
     const editing = props.editingId === props.flights[index]?.id;
 
     if (editing) {
-      return compactCards ? 438 : 650;
+      return compactCards ? 490 : 690;
     }
 
     return compactCards ? 392 : 560;
@@ -420,7 +420,7 @@ const FlightCardRow = memo(function FlightCardRow({ index, style, data }: ListCh
   const selected = data.selectedIds.has(flight.id);
 
   return (
-    <div style={style} className="px-0 pb-4">
+    <div style={style} className="px-4 pb-0">
       <article
         className={`rounded-lg border p-4 shadow-lift ${
           selected
